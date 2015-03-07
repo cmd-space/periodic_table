@@ -12,7 +12,7 @@
 	}
 	/*Below is my CSS*/
 #main{
-	width: 900px;
+	width: 960px;
 	background-color: lightgray;
 }
 	#main h3{
@@ -30,7 +30,7 @@
 		vertical-align: top;
 	}
 		#top-nums li{
-			padding-right: 30px;
+			padding-right: 33px;
 			display: inline;
 			color: red;
 			text-align: center;
@@ -49,6 +49,12 @@
 			/*#side-nums li:before{
 				padding-top: 10px;
 			}*/
+	#top-container{
+		margin: 0px 0px;
+		padding: 0px 0px;
+		/*width: 857px;*/
+		display: inline;
+	}
 	#main ul li h2{
 		color: blue;
 		font-size: 12px;
@@ -60,22 +66,51 @@
 		text-align: center;
 		padding: 2px 0px;
 	}
-	#main br{
-		padding: 0px 0px;
-		margin: 0px 0px;
-	}
-	#first-row{
+	.column{
 		display: inline-block;
 		width: 43px;
-		/*background-color: lightblue;*/
 		list-style-type: none;
 		vertical-align: top;
 	}
-		#first-row ul{
+	.pink-col{
+		margin-top: 138px;
+	}
+	/*#first-col{
+		display: inline-block;
+		width: 43px;
+		background-color: lightblue;
+		list-style-type: none;
+		vertical-align: top;
+	}*/
+	#first-col ul{
+		list-style-type: none;
+	}
+		#first-col ul li{
+			background-color: #00bfff;
+			width: 43px;
+			margin-top: 2px;
+			border: 1px solid gray;
+		}
+	#second-col{
+		margin-top: 46px;
+	}
+		#second-col ul{
 			list-style-type: none;
 		}
-			#first-row ul li{
+			#second-col ul li{
 				background-color: #00bfff;
+				width: 43px;
+				margin-top: 2px;
+				border: 1px solid gray;
+			}
+	/*#pink-col-1{
+		margin-top: 138px;
+	}*/
+		.pink-col ul{
+			list-style-type: none;
+		}
+			.pink-col ul li{
+				background-color: #ffb6c1;
 				width: 43px;
 				margin-top: 2px;
 				border: 1px solid gray;
